@@ -1,0 +1,18 @@
+.popular {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+}
+
+.popular h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #171717;
+}
+
+.popular-item{
+    margin: 50px 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
